@@ -12,7 +12,8 @@
   height: 150px
 }
 .products img:hover {
-    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+    transform:scale(1.05)
 }
 
 /* when smaller column direction changes */

@@ -1,0 +1,14 @@
+body{
+    background-image: url('images/end.jpg');
+    background-size: cover;
+}
+
+p{
+ -webkit-text-fill-color: rgb(174, 81, 255);
+}
+h2{
+    -webkit-text-fill-color: rgb(174, 81, 255);
+}
+h3{
+    -webkit-text-fill-color: rgb(174, 81, 255);
+}

@@ -152,6 +152,33 @@ background-color: black;
   -webkit-text-fill-color: rgb(87, 30, 0);
 }
 
+/* pegasus page */
+.peg{
+  background-image: url('images/pegasus.gif');
+  background-size: cover;
+}
+.peg p{
+  -webkit-text-fill-color: rgb(0, 217, 255);
+}
+.peg h2{
+ -webkit-text-fill-color: rgb(0, 217, 255);
+ margin-top: 0;
+}
+.peg h3{
+  -webkit-text-fill-color: rgb(0, 217, 255);
+}
+
+/* ourobors page */
+.our p{
+  -webkit-text-fill-color: rgb(216, 180, 0);
+}
+.our h2{
+ -webkit-text-fill-color: rgb(216, 180, 0);
+ margin-top: 0;
+}
+.our h3{
+  -webkit-text-fill-color: rgb(216, 180, 0);
+}
 
 
 

@@ -1,0 +1,31 @@
+.formulier {
+  max-width: 400px;
+}
+
+.veld {
+    margin-bottom: 15px;
+}
+
+.veld label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.veld input,
+.veld select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+.vinkje {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.vinkje input {
+    width: auto;
+}

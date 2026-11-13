@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <h1>Checkout</h1>
+    <a href="index.html"><h3>Home</h3></a>
+    <a href="javascript:history.back();"><h3>back</h3></a>
+    <form class="formulier">
+           
+        </form>
+
+        <div class="veld">
+            <label for="voornaam">First name</label>
+            <input type="text" id="voornaam" name="voornaam" required>
+        </div>  
+
+        <div class="veld">
+          <label for="achternaam">Surname</label>
+          <input type="text" id="achternaam" name="achternaam" required>
+        </div>
+
+        <div class="veld">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="veld"> 
+            <label for="phone">Phone-Number</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="veld">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+        </div>
+        
+        <div class="veld">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street">
+        </div>
+
+        <div class="veld">
+            <label for="postcode">Postal code</label>
+            <input for="text" id="postcode" name="postcode">
+        </div>
+
+        <div class="veld">
+            <label for="dead">Dead or alive?</label>
+            <select id="dead" name="dead">
+                <option value="alive">Alive</option>
+                <option value="dead">Dead</option>
+            </select>
+
+        </div>
+
+        <div class="veld">
+            <label for="aantal">Amount</label>
+            <input type="number" id="aantal" name="aantal" min="1" max="10" required>
+        </div>
+
+        <div class="veld vinkje">
+            
+            <label for="terms">Do you agree with the <a href="terms.html">Terms & Conditions</a></label>
+            <input type="checkbox" id="terms" name="terms" required>
+        </div>
+
+        <input type="submit" value="Place order" class="knop">
+
+
+
+</body>    
+</html>

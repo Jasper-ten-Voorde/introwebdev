@@ -22,7 +22,164 @@
     grid-template-columns: auto auto;
 }
 }
-/* background gradient */
-body {
+
+/* background images */
+.a1{
   background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
 }
+
+/* index page */
+h4{
+  margin-bottom: 0;
+}
+.products p{
+  margin-top: 0;
+  -webkit-text-fill-color: rgb(0, 110, 0);
+}
+
+/* dragon page */
+.dragon{
+ background-image: url('images/end.jpg');
+ background-size: cover;
+}
+.dragon p{
+ -webkit-text-fill-color: rgb(174, 81, 255);
+}
+.dragon h2{
+ -webkit-text-fill-color: rgb(174, 81, 255);
+ margin-top: 0;
+}
+.dragon h3{
+  -webkit-text-fill-color: rgb(174, 81, 255);
+}
+
+/* unicorn page */
+.uni p{
+ -webkit-text-fill-color: rgb(255, 0, 221);
+}
+.uni h2{
+ -webkit-text-fill-color: rgb(255, 0, 221);
+ margin-top: 0;
+}
+.uni h3{
+  -webkit-text-fill-color: rgb(255, 0, 221);
+}
+
+/* leprechaun page */
+.moth p{
+ -webkit-text-fill-color: rgb(99, 0, 0);
+}
+.moth h2{
+ -webkit-text-fill-color: rgb(99, 0, 0);
+ margin-top: 0;
+}
+.moth h3{
+  -webkit-text-fill-color: rgb(99, 0, 0);
+}
+
+/* siren page */
+.sir p{
+  -webkit-text-fill-color: rgb(0, 76, 58);
+}
+.sir h2{
+ -webkit-text-fill-color: rgb(0, 76, 58);
+ margin-top: 0;
+}
+.sir h3{
+  -webkit-text-fill-color: rgb(0, 76, 58);
+}
+
+/* slenderman page */
+.slen{
+background-color: black;
+}
+.slen p{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+.slen h2{
+ -webkit-text-fill-color: rgb(255, 255, 255);
+ margin-top: 0;
+}
+.slen h3{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+/* medusa page */
+.med p{
+  -webkit-text-fill-color: rgb(64, 64, 64);
+}
+.med h2{
+ -webkit-text-fill-color: rgb(64, 64, 64);
+ margin-top: 0;
+}
+.med h3{
+  -webkit-text-fill-color: rgb(64, 64, 64);
+}
+
+/* pheonix page */
+.phe p{
+  -webkit-text-fill-color: rgb(255, 102, 0);
+}
+.phe h2{
+ -webkit-text-fill-color: rgb(255, 102, 0);
+ margin-top: 0;
+}
+.phe h3{
+  -webkit-text-fill-color: rgb(255, 102, 0);
+}
+
+/* cyclops page */
+.cyc p{
+  -webkit-text-fill-color: rgb(242, 204, 183);
+}
+.cyc h2{
+ -webkit-text-fill-color: rgb(242, 204, 183);
+ margin-top: 0;
+}
+.cyc h3{
+  -webkit-text-fill-color: rgb(242, 204, 183);
+}
+
+/* bugbear page */
+.bug p{
+  -webkit-text-fill-color: rgb(87, 30, 0);
+}
+.bug h2{
+ -webkit-text-fill-color: rgb(87, 30, 0);
+ margin-top: 0;
+}
+.bug h3{
+  -webkit-text-fill-color: rgb(87, 30, 0);
+}
+
+
+
+
+
+
+
+/* buy button all pages */
+.btn{
+ padding: 10px 20px;
+ margin: 10px;
+ border: none;
+ cursor: pointer;
+ font-size: 16px;
+ transition: all 0.3s ease;
+ background-color: green;
+ color: white;
+ animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

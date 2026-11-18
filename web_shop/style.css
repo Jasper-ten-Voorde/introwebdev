@@ -37,7 +37,7 @@
 }
 .pro:hover {
     transform:scale(1.05);
-    box-shadow: rgb(255, 234, 0);
+    box-shadow:0 8px 16px 0 rgb(255, 234, 0);
 }
 /* when smaller column direction changes */
 @media (max-width: 600px) {

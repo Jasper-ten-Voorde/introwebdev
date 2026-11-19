@@ -9,7 +9,8 @@
   position: sticky;
   top: 0;
   z-index: 9000;
-  
+  -webkit-text-fill-color: black;
+    font-family: "cursive", "Brush Script MT";
 }
 
 .right{
@@ -22,19 +23,22 @@
     grid-template-columns: auto auto auto auto auto;
     gap: 20px;
     justify-content: space-between;
+    font-family: "cursive", "Brush Script MT";
 }
 
 .pro {
   background-color: white;
   border-radius: 25px;
   box-shadow:0 4px 8px 0 rgba(0,0,0,1) ;
+  padding: 10px;
 }
 
 .products img {
-  width: 100%;
+  width: 200px;
   height: 150px;
   border-radius: 25px;
 }
+
 .pro:hover {
     transform:scale(1.05);
     box-shadow:0 8px 16px 0 rgb(255, 234, 0);
@@ -55,6 +59,7 @@ background: linear-gradient(180deg,rgba(0, 212, 11, 1) 0%, rgba(5, 46, 0, 1) 100
 h4{
   margin-bottom: 0;
   margin-top: 0;
+  font-family: "cursive", "Brush Script MT";
 }
 .products p{
   margin-top: 0;
@@ -68,49 +73,61 @@ h4{
 }
 .dragon p{
  -webkit-text-fill-color: rgb(174, 81, 255);
+  font-family: "cursive", "Brush Script MT";
 }
 .dragon h2{
  -webkit-text-fill-color: rgb(174, 81, 255);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .dragon h3{
   -webkit-text-fill-color: rgb(174, 81, 255);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* unicorn page */
 .uni p{
  -webkit-text-fill-color: rgb(255, 0, 221);
+   font-family: "cursive", "Brush Script MT";
 }
 .uni h2{
  -webkit-text-fill-color: rgb(255, 0, 221);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .uni h3{
   -webkit-text-fill-color: rgb(255, 0, 221);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* leprechaun page */
 .moth p{
  -webkit-text-fill-color: rgb(99, 0, 0);
+   font-family: "cursive", "Brush Script MT";
 }
 .moth h2{
  -webkit-text-fill-color: rgb(99, 0, 0);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .moth h3{
   -webkit-text-fill-color: rgb(99, 0, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* siren page */
 .sir p{
   -webkit-text-fill-color: rgb(0, 76, 58);
+    font-family: "cursive", "Brush Script MT";
 }
 .sir h2{
  -webkit-text-fill-color: rgb(0, 76, 58);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .sir h3{
   -webkit-text-fill-color: rgb(0, 76, 58);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* slenderman page */
@@ -119,61 +136,76 @@ background-color: black;
 }
 .slen p{
   -webkit-text-fill-color: rgb(255, 255, 255);
+    font-family: "cursive", "Brush Script MT";
 }
 .slen h2{
  -webkit-text-fill-color: rgb(255, 255, 255);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .slen h3{
   -webkit-text-fill-color: rgb(255, 255, 255);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* medusa page */
 .med p{
   -webkit-text-fill-color: rgb(64, 64, 64);
+    font-family: "cursive", "Brush Script MT";
 }
 .med h2{
  -webkit-text-fill-color: rgb(64, 64, 64);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .med h3{
   -webkit-text-fill-color: rgb(64, 64, 64);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* pheonix page */
 .phe p{
   -webkit-text-fill-color: rgb(255, 102, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 .phe h2{
  -webkit-text-fill-color: rgb(255, 102, 0);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .phe h3{
   -webkit-text-fill-color: rgb(255, 102, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* cyclops page */
 .cyc p{
   -webkit-text-fill-color: rgb(242, 204, 183);
+    font-family: "cursive", "Brush Script MT";
 }
 .cyc h2{
  -webkit-text-fill-color: rgb(242, 204, 183);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .cyc h3{
   -webkit-text-fill-color: rgb(242, 204, 183);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* bugbear page */
 .bug p{
   -webkit-text-fill-color: rgb(87, 30, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 .bug h2{
  -webkit-text-fill-color: rgb(87, 30, 0);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .bug h3{
   -webkit-text-fill-color: rgb(87, 30, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* pegasus page */
@@ -183,25 +215,31 @@ background-color: black;
 }
 .peg p{
   -webkit-text-fill-color: rgb(0, 217, 255);
+    font-family: "cursive", "Brush Script MT";
 }
 .peg h2{
  -webkit-text-fill-color: rgb(0, 217, 255);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .peg h3{
   -webkit-text-fill-color: rgb(0, 217, 255);
+    font-family: "cursive", "Brush Script MT";
 }
 
 /* ourobors page */
 .our p{
   -webkit-text-fill-color: rgb(216, 180, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 .our h2{
  -webkit-text-fill-color: rgb(216, 180, 0);
+   font-family: "cursive", "Brush Script MT";
  margin-top: 0;
 }
 .our h3{
   -webkit-text-fill-color: rgb(216, 180, 0);
+    font-family: "cursive", "Brush Script MT";
 }
 
 

@@ -10,9 +10,12 @@
   top: 0;
   z-index: 9000;
   -webkit-text-fill-color: black;
-    font-family: "cursive", "Brush Script MT";
+  font-family: "cursive", "Brush Script MT";
+  
 }
-
+.menu a{
+  text-decoration: none;
+}
 .right{
   display: flex;
   gap: 20px;
@@ -258,6 +261,10 @@ background-color: black;
  background-color: green;
  color: white;
  animation: pulse 1.5s infinite;
+}
+
+.btn:hover{
+  background-color: blue;
 }
 
 @keyframes pulse {

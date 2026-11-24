@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<div id="producten">
 <?php
-$naam ="vico"
+$producten_array = [
+    'gary',
+    "vico",
+    "excalibur"
+];
+
+include ('includes/db.php');
+$producten = $pdo->query("SELECT * FROM producten")->fetchAll();
+echo "Er staan " . count($producten) . " producten in de database.";
+
+// echo "<xmp>";
+// print_r($producten);
+// "</xmp>";
+
+foreach($producten as $product) {
+ 
+
+    ?>
+    <div>
+      <div class='productnaam'>naam: <?php echo $product['naam']; ?></div>
+      <div class='prijs'>prijs: <?php echo $product['prijs']; ?>
+    </div>
+<?php 
+}
+
+?>
+</div>
+
 
 </body>
 </html>

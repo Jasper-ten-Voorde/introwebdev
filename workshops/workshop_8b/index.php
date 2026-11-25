@@ -8,11 +8,8 @@
 </head>
 <div id="producten">
 <?php
-$producten_array = [
-    'gary',
-    "vico",
-    "excalibur"
-];
+
+$path = "./images/";
 
 include ('includes/db.php');
 $producten = $pdo->query("SELECT * FROM producten")->fetchAll();
@@ -28,9 +25,12 @@ foreach($producten as $product) {
     ?>
     <div>
       <div class='productnaam'>naam: <?php echo $product['naam']; ?></div>
-      <div class='prijs'>prijs: <?php echo $product['prijs']; ?>
-    </div>
+      <div class='prijs'>prijs: <?php echo $product['prijs']; ?></div>
+      <img src=<?php echo $path . $product['afbeelding'] ?>>
 <?php 
+
+
+
 }
 
 ?>

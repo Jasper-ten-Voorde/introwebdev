@@ -36,6 +36,7 @@
   padding: 10px;
 }
 
+
 .products img {
   width: 200px;
   height: 150px;
@@ -48,14 +49,14 @@
 }
 /* when smaller column direction changes */
 @media (max-width: 600px) {
-.products {
+/* .products {
     grid-template-columns: auto auto;
-}
+} */
 }
 
 /* background images */
 .a1{
-background: linear-gradient(180deg,rgba(0, 212, 11, 1) 0%, rgba(5, 46, 0, 1) 100%);
+background-color: rgba(0, 212, 11, 1);
 }
 
 /* index page */

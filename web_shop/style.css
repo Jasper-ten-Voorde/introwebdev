@@ -10,7 +10,7 @@
   top: 0;
   z-index: 9000;
   -webkit-text-fill-color: black;
-  font-family: "cursive", "Brush Script MT";
+  font-family: "Fantasy", "Papyrus";
   
 }
 .menu a{
@@ -25,12 +25,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 20px;
-    justify-content: space-between;
-    font-family: "cursive", "Brush Script MT";
+    justify-content: space-betwefantasy
 }
-
-.pro {
-  background-color: white;
+Papyrusound-color: white;
   border-radius: 25px;
   box-shadow:0 4px 8px 0 rgba(0,0,0,1) ;
   padding: 10px;
@@ -62,11 +59,9 @@ background-color: rgba(0, 212, 11, 1);
 /* index page */
 h4{
   margin-bottom: 0;
-  margin-top: 0;
-  font-family: "cursive", "Brush Script MT";
+  margin-topfantasy
 }
-.products p{
-  margin-top: 0;
+Papyrusargin-top: 0;
   -webkit-text-fill-color: rgb(0, 110, 0);
 }
 
@@ -76,182 +71,111 @@ h4{
  background-size: cover;
 }
 .dragon p{
- -webkit-text-fill-color: rgb(174, 81, 255);
-  font-family: "cursive", "Brush Script MT";
+ -webkit-text-fill-color: rgb(174, 81, 2fantasy
 }
-.dragon h2{
- -webkit-text-fill-color: rgb(174, 81, 255);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.dragon h3{
-  -webkit-text-fill-color: rgb(174, 81, 255);
-    font-family: "cursive", "Brush Script MT";
+.Papyrusbkit-text-fill-color: rgb(174, 81, 25fantasy
+ maPapyrus.dragon h3{
+  -webkit-text-fill-color: rgb(174, 81, 25fantasy
 }
 
-/* unicorn page */
+Papyrus */
 .uni p{
- -webkit-text-fill-color: rgb(255, 0, 221);
-   font-family: "cursive", "Brush Script MT";
+ -webkit-text-fill-color: rgb(255, 0, 22fantasy
 }
-.uni h2{
- -webkit-text-fill-color: rgb(255, 0, 221);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.uni h3{
-  -webkit-text-fill-color: rgb(255, 0, 221);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(255, 0, 22fantasy
+ maPapyrus.uni h3{
+  -webkit-text-fill-color: rgb(255, 0, 22fantasy
 }
 
-/* leprechaun page */
+Papyrusage */
 .moth p{
- -webkit-text-fill-color: rgb(99, 0, 0);
-   font-family: "cursive", "Brush Script MT";
+ -webkit-text-fill-color: rgb(99, 0, fantasy
 }
-.moth h2{
- -webkit-text-fill-color: rgb(99, 0, 0);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.moth h3{
-  -webkit-text-fill-color: rgb(99, 0, 0);
-    font-family: "cursive", "Brush Script MT";
+.Papyrusit-text-fill-color: rgb(99, 0, fantasy
+ maPapyrus.moth h3{
+  -webkit-text-fill-color: rgb(99, 0, fantasy
 }
 
-/* siren page */
+Papyrus/
 .sir p{
-  -webkit-text-fill-color: rgb(0, 76, 58);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(0, 76, 5fantasy
 }
-.sir h2{
- -webkit-text-fill-color: rgb(0, 76, 58);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.sir h3{
-  -webkit-text-fill-color: rgb(0, 76, 58);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(0, 76, 5fantasy
+ maPapyrus.sir h3{
+  -webkit-text-fill-color: rgb(0, 76, 5fantasy
 }
 
-/* slenderman page */
+Papyrusage */
 .slen{
 background-color: black;
 }
 .slen p{
-  -webkit-text-fill-color: rgb(255, 255, 255);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(255, 255, 25fantasy
 }
-.slen h2{
- -webkit-text-fill-color: rgb(255, 255, 255);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.slen h3{
-  -webkit-text-fill-color: rgb(255, 255, 255);
-    font-family: "cursive", "Brush Script MT";
+.Papyrusit-text-fill-color: rgb(255, 255, 25fantasy
+ maPapyrus.slen h3{
+  -webkit-text-fill-color: rgb(255, 255, 25fantasy
 }
 
-/* medusa page */
+Papyrus*/
 .med p{
-  -webkit-text-fill-color: rgb(64, 64, 64);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(64, 64, 6fantasy
 }
-.med h2{
- -webkit-text-fill-color: rgb(64, 64, 64);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.med h3{
-  -webkit-text-fill-color: rgb(64, 64, 64);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(64, 64, 6fantasy
+ maPapyrus.med h3{
+  -webkit-text-fill-color: rgb(64, 64, 6fantasy
 }
 
-/* pheonix page */
+Papyrus */
 .phe p{
-  -webkit-text-fill-color: rgb(255, 102, 0);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(255, 102, fantasy
 }
-.phe h2{
- -webkit-text-fill-color: rgb(255, 102, 0);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.phe h3{
-  -webkit-text-fill-color: rgb(255, 102, 0);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(255, 102, fantasy
+ maPapyrus.phe h3{
+  -webkit-text-fill-color: rgb(255, 102, fantasy
 }
 
-/* cyclops page */
+Papyrus */
 .cyc p{
-  -webkit-text-fill-color: rgb(242, 204, 183);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(242, 204, 18fantasy
 }
-.cyc h2{
- -webkit-text-fill-color: rgb(242, 204, 183);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.cyc h3{
-  -webkit-text-fill-color: rgb(242, 204, 183);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(242, 204, 18fantasy
+ maPapyrus.cyc h3{
+  -webkit-text-fill-color: rgb(242, 204, 18fantasy
 }
 
-/* bugbear page */
+Papyrus */
 .bug p{
-  -webkit-text-fill-color: rgb(87, 30, 0);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(87, 30, fantasy
 }
-.bug h2{
- -webkit-text-fill-color: rgb(87, 30, 0);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.bug h3{
-  -webkit-text-fill-color: rgb(87, 30, 0);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(87, 30, fantasy
+ maPapyrus.bug h3{
+  -webkit-text-fill-color: rgb(87, 30, fantasy
 }
 
-/* pegasus page */
+Papyrus */
 .peg{
   background-image: url('images/pegasus.gif');
   background-size: cover;
 }
 .peg p{
-  -webkit-text-fill-color: rgb(0, 217, 255);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(0, 217, 25fantasy
 }
-.peg h2{
- -webkit-text-fill-color: rgb(0, 217, 255);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.peg h3{
-  -webkit-text-fill-color: rgb(0, 217, 255);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(0, 217, 25fantasy
+ maPapyrus.peg h3{
+  -webkit-text-fill-color: rgb(0, 217, 25fantasy
 }
 
-/* ourobors page */
+Papyruse */
 .our p{
-  -webkit-text-fill-color: rgb(216, 180, 0);
-    font-family: "cursive", "Brush Script MT";
+  -webkit-text-fill-color: rgb(216, 180, fantasy
 }
-.our h2{
- -webkit-text-fill-color: rgb(216, 180, 0);
-   font-family: "cursive", "Brush Script MT";
- margin-top: 0;
-}
-.our h3{
-  -webkit-text-fill-color: rgb(216, 180, 0);
-    font-family: "cursive", "Brush Script MT";
+.Papyrust-text-fill-color: rgb(216, 180, fantasy
+ maPapyrus.our h3{
+  -webkit-text-fill-color: rgb(216, 180, fantasy
 }
 
-
-
-
-
-
-/* buy button all pages */
+Papyruston all pages */
 .btn{
  padding: 10px 20px;
  margin: 10px;

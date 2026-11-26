@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magical Market</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
 <body class="a1">
   <div id="producten">
 <?php
 
 $path = "./images/";
 
+include ('includes/header.php');
 include ('includes/db.php');
 $producten = $pdo->query("SELECT * FROM producten")->fetchAll();
 echo "Er staan " . count($producten) . " producten in de database.";
@@ -21,18 +15,23 @@ echo "Er staan " . count($producten) . " producten in de database.";
 // "</xmp>";
 ?>
 
+
+
 <div class='products'>
 <?php
 foreach($producten as $product) {
  
 
     ?>
-    <div class='pro'>
+    <a href="detail.php?id=<?php echo $product['id']; ?>" class="knop">
+    <div href="detail.php?id=<?php echo $product['id']; ?>" class="pro">
       <img src=<?php echo $path . $product['afbeelding'] ?>>
       <div class='productnaam'><h3><?php echo $product['naam']; ?></h3></div> 
-      <div class='prijs'>&euro; <?php echo $product['prijs']; ?></div> 
+      <div class='prijs'>&euro; <?php echo number_format($product['prijs'], 2, ',', '.'); ?></div> 
       <div class='info'><?php echo $product['omschrijving']; ?></div> 
+     
      </div> 
+      </a>
 <?php 
 
 }
@@ -40,23 +39,7 @@ foreach($producten as $product) {
 
 ?>
 </div>
-     <!-- <div class="menu">
-       
-            <h1>Magical Market</h1>
-  
-
-        <div class="right">
-             <div>
-               <h3>login</h3>
-          </div>
-          <div>
-              <a href="checkout.html"><h3>Checkout</h3> </a>
-          </div>
-          <div>
-              <a href="terms.html"> <h3>Terms & services</h3> </a>
-          </div>
-          </div>
-   </div> -->
+     
    <!-- <h2>Pick a creature</h2>
     <p>20% off of all dead creatures</p> -->
    <!-- <br> -->
@@ -186,14 +169,5 @@ foreach($producten as $product) {
 
    <!-- </div> -->
 
-   <h2>How to order?</h2>
-    <ol>
-        <li>Choose a creature</li>
-        <!-- <li>Pick dead or alive</li> -->
-        <li>Put in your home adress</li>
-        <li>Pay</li>
-        <li>Your package will arive as soon as possible</li>
-    </ol>
-
-</body>
-</html>
+  
+<?php include "includes/footer.php"; ?>
